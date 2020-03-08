@@ -9,6 +9,10 @@ gem 'puma'
 gem 'rails', '6.0.2.1'
 gem 'redis'
 
+gem 'money-rails'
+gem 'stripe'
+gem 'stripe_event'
+
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'sassc-rails'

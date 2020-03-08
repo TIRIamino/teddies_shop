@@ -8,6 +8,7 @@
           <div class="card-body">
             <h5 class="card-title"><%= teddy.name %></h5>
             <p class="card-text"><%= teddy.category.name %></p>
+            <p>Amount: <%= humanized_money_with_symbol(teddy.price) %></p>
             <%= link_to "More details", teddy_path(teddy), class: "btn btn-primary" %>
           </div>
         </div>
